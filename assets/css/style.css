@@ -257,3 +257,78 @@ header{
     display: none;
 }
 
+
+
+
+/* ------------------------- start categories section ----------------------*/
+.categories{
+    max-width: 1080px;
+    margin: auto;
+    padding: 4rem 0;
+}
+.categories h1{
+    font-size: 35px;
+}
+.categories-row{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.categories-item{
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    margin-top: 2rem;
+}
+.categories-item h2{
+    font-size: 19px;
+    padding: 25px;
+}
+
+
+/* -------------- start discover -------------------------- */
+
+.doscover{
+    max-width: 1080px;
+    margin: auto;
+    padding: 4rem 0;
+    position: relative;   
+}
+.Discover-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.Discover-item-row{
+    margin-top: 4rem;
+    border-radius: 20px;
+    width: 330px;
+    background-color: #3B3B3B;
+}
+
+.descover-item{    
+    padding: 20px 30px;
+}
+.pre-descover-name{
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+}
+.pre-descover-name img{
+    margin-right: 10px;
+}
+.rice-bid-row{
+    margin-top: 30px;
+}
+.price-bid{
+    margin-top: 15px;
+    max-width: 270px;
+    display: flex;
+    justify-content: space-between;
+}
+.price-bid p{
+    color: #afafaf;
+    font-size: 19px;
+    font-family: 'Courier New', Courier, monospace;
+}
