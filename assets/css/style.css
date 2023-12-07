@@ -179,3 +179,81 @@ header{
 .pre-trend-name img{
     margin-right: 10px;
 }
+
+/* ----------------------------------  start TOP section  --------------------------------- */
+
+
+.top{
+    max-width: 1080px;
+    margin: auto;
+    padding-bottom: 4rem;
+    position: relative;
+}
+.top-head h1{
+    font-size: 35px;
+}
+.top-head p{
+    margin-top: 15px;
+    font-size: 20px;   
+}
+.top-person{
+    margin-top: 2rem;
+    width: 240px;
+    height: 238px;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+}
+.numeric{
+    padding: 5px 10px;
+    border-radius: 50%;
+    background-color: #2B2B2B;
+    position: absolute;
+    margin: 10px;
+    color: #757575;
+}
+
+.top-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+.own-person{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.own-person img{
+    margin-top: 20px;
+}
+.avatar{
+    text-align: center;
+}
+.own-person h2{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.own-person p{
+    margin-top: 10px;
+    font-size: 15px;
+    color: #979797;
+}
+
+.button-top{
+    margin-top: -65px;
+    position: absolute;
+    right: 0;
+    font-size: 19px;
+    width: 247px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #A259FF;
+    border-radius: 20px;  
+}
+.button-top-hide-show{
+    display: none;
+}
+
