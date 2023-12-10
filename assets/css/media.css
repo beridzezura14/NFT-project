@@ -48,11 +48,16 @@
     .main-img{
         width: 100%;
     }
+    .buttons-sign{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
 
     .button-mobile{
-        display: block;
+        display: inline;
         margin-top: 30px;
-        width: 100%;
+        width: 40%;
         padding: 20px 0;
         text-align: center;
         background-color: #A259FF;
@@ -95,7 +100,7 @@
 
 
 
-
+/* ----------------------- start categories section  -------------------------- */
     .categories{
         max-width: 90%;
         margin-left: 5%;
@@ -110,7 +115,7 @@
     }
 
 
-
+/* ----------------------- start discover section  -------------------------- */
 
     .doscover{
         max-width: 90%;
@@ -169,7 +174,7 @@
 
 }
 @media (max-width:703px){
-    /* ----------------------------------  start trending section  --------------------------------- */
+    /* ----------------------------------  start top section  --------------------------------- */
 
     .button-top{
         margin-top: 20px;
@@ -197,7 +202,7 @@
         border: 2px solid #A259FF;
         border-radius: 20px;
     }
-
+    /* ----------------------------------  start categories section  --------------------------------- */
     .categories-item img{
         width: 175px;
         height: auto;
@@ -209,6 +214,7 @@
 }
 
 @media (max-width:400px){
+    /* ----------------------------------  start categories section  --------------------------------- */
     .categories-item img{
         width: 160px;
         height: auto;
