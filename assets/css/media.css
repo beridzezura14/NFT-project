@@ -150,61 +150,59 @@
     height: 450px;
   }
 
-  .works-row div img{
+  .works-row div img {
     margin-top: 20px;
   }
-  
-  .works-row div h2{
+
+  .works-row div h2 {
     margin-top: 15px;
   }
-  .works-row div p{
+  .works-row div p {
     margin-top: 15px;
     width: 260px;
   }
 
-
   /* ----------------------------- start subscribe section ------------------------------------- */
 
-  .subscribe{
+  .subscribe {
     max-width: 90%;
     margin-left: 5%;
   }
-  
-  .subscribe-row{
+
+  .subscribe-row {
     display: flex;
     justify-content: space-between;
   }
-  .subscribe-row img{
+  .subscribe-row img {
     width: 380px;
     height: 320px;
   }
-  
-  .subscribe-text{
+
+  .subscribe-text {
     width: 365px;
   }
-  .subscribe-text h2{
+  .subscribe-text h2 {
     font-size: 35px;
-  } 
+  }
 
-  .form{
+  .form {
     display: flex;
     flex-direction: column;
   }
-  .form input{
+  .form input {
     width: 92%;
     margin-bottom: 20px;
   }
-  .form button{
+  .form button {
     margin-left: 0px;
     width: 100%;
     color: #ffffff;
     background-color: #a259ff;
   }
 
-
   /* ------------------   footer ------------------------ */
 
-  .footer-row{
+  .footer-row {
     max-width: 90%;
     margin-left: 5%;
     display: flex;
@@ -212,15 +210,21 @@
     justify-content: space-between;
   }
 
-  .footer-1-row, .footer-2-row, .footer-3-row{
+  .footer-1-row,
+  .footer-2-row,
+  .footer-3-row {
     margin-top: 20px;
   }
 
-  .last-line{
+  .footer-3-row p {
+    margin: 25px 0;
+    width: 300px;
+  }
+
+  .last-line {
     max-width: 90%;
     margin-left: 5%;
   }
-
 }
 
 /* ------------------------------------------------------------------ */
@@ -256,7 +260,6 @@
     margin-left: 20px;
   }
 
-
   /* -------------- mashrooms discover -------------------------- */
 
   .mashrooms-row {
@@ -279,8 +282,7 @@
     width: 100%;
   }
 
-
-/* -----------------  start works section  ------------------------ */
+  /* -----------------  start works section  ------------------------ */
 
   .works-row {
     margin-top: 3rem;
@@ -289,7 +291,7 @@
     justify-content: space-between;
     align-items: center;
   }
-/* 
+  /* 
   .works-item{
     display: flex;
     flex-direction: row;
@@ -299,48 +301,35 @@
     height: 440px;
     margin-bottom: 25px;
   }
-  .works-row div h2{
+  .works-row div h2 {
     margin-top: 20px;
   }
-  .works-row div p{
+  .works-row div p {
     margin-top: 20px;
     width: 300px;
     line-height: 25px;
   }
 
-
-
-
-
-
-
-
-
-
-
-
-  .subscribe-text{
+  .subscribe-text {
     width: 100%;
   }
 
-  .subscribe-row{
+  .subscribe-row {
     display: flex;
     flex-direction: column;
   }
 
-  .subscribe-row img{
+  .subscribe-row img {
     width: 100%;
     height: auto;
   }
-  .subscribe-text h2{
+  .subscribe-text h2 {
     margin-top: 20px;
     padding: 0;
   }
-  .form input{
+  .form input {
     width: 90%;
   }
-
-
 }
 
 /* ------------------------------------------------------------------ */
@@ -359,13 +348,11 @@
   }
 }
 
-
 /* ------------------------------------------------------------------ */
 /* ------------------------------------------------------------------ */
 /* ------------------------------------------------------------------ */
 /* ------------------------------------------------------------------ */
 /* ------------------------------------------------------------------ */
-
 
 @media (max-width: 703px) {
   /* ----------------------------------  start top section  --------------------------------- */

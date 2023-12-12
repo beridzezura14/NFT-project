@@ -9,6 +9,7 @@ body {
   background-color: #2b2b2b;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  overflow-x: hidden;
 }
 
 header {
@@ -426,20 +427,19 @@ header {
   align-items: center;
 }
 
-.works-row div img{
+.works-row div img {
   margin-top: 15px;
 }
 
-.works-row div p{
+.works-row div p {
   margin-top: 20px;
   width: 300px;
   text-align: center;
   line-height: 25px;
 }
 
-
 /* -----------------  start subscribe section  ------------------------ */
-.subscribe{
+.subscribe {
   max-width: 1080px;
   margin: auto;
   padding: 4rem 0;
@@ -447,7 +447,7 @@ header {
   border-radius: 20px;
 }
 
-.subscribe-row{
+.subscribe-row {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -455,88 +455,83 @@ header {
   margin-left: 5%;
 }
 
-.subscribe-text{
+.subscribe-text {
   width: 425px;
 }
-.subscribe-text h2{
+.subscribe-text h2 {
   font-size: 50px;
 }
-.subscribe-text p{
+.subscribe-text p {
   margin: 15px 0;
   font-size: 20px;
 }
-.form{
+.form {
   display: flex;
 }
-.form input, .form button{
+.form input,
+.form button {
   padding: 17px 15px;
   border-radius: 20px;
   border: none;
   outline: none;
   color: #2b2b2b;
 }
-.form input{
+.form input {
   width: 60%;
+  font-size: 16px;
 }
-.form button{
+.form button {
+  font-size: 17px;
   margin-left: -40px;
   width: 45%;
   color: #ffffff;
   background-color: #a259ff;
 }
 
-
-
-
-
-
-
-
-
-
-footer{
+footer {
   margin-top: 4rem;
   padding: 4rem 0 0 0;
   background-color: #3b3b3b;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.footer-row{
+.footer-row {
   max-width: 1080px;
   margin: auto;
   display: flex;
   justify-content: space-between;
 }
-.footer-1-row p{
+.footer-1-row p {
   margin-top: 25px;
   width: 250px;
   font-size: 18px;
 }
-.icons{
+.icons {
   margin-top: 25px;
   display: flex;
   align-items: center;
 }
-.icons a{
+.icons a {
   margin-right: 10px;
 }
 
-.footer-2-row{
+.footer-2-row {
   display: flex;
   flex-direction: column;
 }
-.footer-2-row a{
+.footer-2-row a {
   margin-top: 20px;
 }
-.footer-3-row p{
+.footer-3-row p {
   margin: 25px 0;
   width: 420px;
 }
 
-.last-line{
+.last-line {
   padding: 20px 0;
   max-width: 1080px;
-  margin: auto; 
+  margin: auto;
 }
 
-.last-line p{
+.last-line p {
   margin: 20px 0;
 }
