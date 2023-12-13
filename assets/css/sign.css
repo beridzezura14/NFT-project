@@ -64,3 +64,34 @@
     border: none;
     cursor: pointer;
 }
+
+
+
+
+
+
+
+.wallet{
+    background: linear-gradient(rgba(20, 37, 56, 0.696), rgba(0, 0, 0, 0.488)), url(../img/sign-up/Image\ Placeholder\ wallet.png) center no-repeat;
+    width: 50%;
+    height: 87.4vh;
+    background-size: cover;
+}
+
+
+.wallet-item{
+    display: flex;
+    align-items: center;
+    background-color: #3b3b3b;
+    margin-top: 15px;
+    padding: 0px 20px;
+    border-radius: 20px;
+    border: 1px solid #A259FF;
+    width: 60%;
+}
+.wallet-item img{
+    margin-right: 20px;
+}
+.wallet-item p{
+    margin: 1.3rem 0;
+}

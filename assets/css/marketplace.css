@@ -1,0 +1,80 @@
+.search{
+    margin-top: 4rem;
+    max-width: 100%;
+    position: relative;
+}
+.search input{
+    width: 97%;
+    outline: none;
+    border: none;
+    background-color: #2b2b2b;
+    border: 1px solid #3b3b3b;
+    height: 60px;
+    border-radius: 20px;
+    padding-left: 3%;
+    font-size: 18px;
+}
+.search button{
+    position: absolute;
+    right: 25px;
+    top: 17px;
+    border: none;
+    background-color: #2b2b2b;
+}
+.search button ion-icon{
+    background-color: #2b2b2b;
+    color: white;
+    font-size: 25px;
+}
+
+.choise{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 0 0;
+    border-top: 1px solid #3b3b3b;
+    border-bottom: 1px solid #3b3b3b;
+    cursor: pointer;
+    
+}
+.choise div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    /* border-bottom: 1px solid #3b3b3b; */
+}
+.nft{
+    padding-bottom: 20px;
+    border-bottom: 2px solid #858584;
+}
+.collection{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #3b3b3b;
+}
+.nft h3{
+    margin-right: 15px;
+}
+.nft p{
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #858584;
+}
+
+.collection h3{
+    margin-right: 15px;
+    color: #858584;
+}
+.collection p{
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: #3b3b3b;
+}
+
+.descover-item h1{
+    font-size: 22px;
+}
+
+.price-bid-eth p{
+    color: white;
+}
