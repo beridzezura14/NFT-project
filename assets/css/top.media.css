@@ -1,0 +1,45 @@
+@media (max-width: 1085px){
+    .ranking{
+        max-width: 90%;
+        margin-left: 5%;
+    }
+}
+
+
+@media (max-width: 974px) {
+    .item-row {
+        padding: 10px 20px;
+      }
+      .person-row p {
+        margin-right: 10px;  
+      }
+      .person-row img{
+        width: 45px;
+        margin-right: 10px;
+      }
+      .person-row h3{
+        font-size: 16px;
+      }
+    .none{
+        display: none;
+    }
+    .data p {
+        margin-left: 0px;
+    }
+    .change{
+        margin-right: 45px;
+    }
+}
+
+@media (max-width: 603px){
+
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: inline;
+      }
+    .change, .color-green{
+        display: none;
+    }
+}
