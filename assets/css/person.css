@@ -1,0 +1,81 @@
+.profile{
+    background: linear-gradient(rgba(20, 37, 56, 0.062), #a259ff), url(../img/person/Image\ PlaceHolder\ \(2\).png) center no-repeat;
+    width: 100%;
+    height: 35vh;
+    background-size: cover;
+    position: relative;
+}
+.profile div{
+    max-width: 1080px;
+    margin: auto;
+}
+.person-photo{
+    position: absolute;
+    bottom: -50px;
+}
+.section-choise{
+    max-width: 1080px;
+    margin: auto;
+}
+
+.about-person{
+    padding: 80px 0 0 0;
+    max-width: 1080px;
+    margin: auto;
+}
+.about-person h1{
+    font-size: 40px;
+}
+.copy-follow{
+    margin-top: 60px;
+}
+.copy-follow a{
+    margin-right: 10px;
+    padding: 20px 40px;
+    background-color: #a259ff;
+    border-radius: 20px;
+}
+
+.follow{
+    background-color: #2b2b2b !important;
+    border: 2px solid #a259ff;
+}
+
+.statistic-person{
+    max-width: 400px;
+}
+.statistic-person div h2{
+    font-size: 30px;
+}
+.statistic-person div h3{
+    font-size: 18px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    color: #a1a1a1;
+}
+
+.bio{
+    margin-top: 40px;
+}
+.bio h3{
+    color: #a1a1a1;
+}
+.bio p{
+    margin-top: 15px;
+}
+.links{
+    margin-top: 40px;
+    
+}
+.links h3{
+    color: #a1a1a1;
+}
+.icon-person{
+    margin-top: 15px;
+}
+
+
+.doscover {
+    padding: 0rem 0;
+
+}

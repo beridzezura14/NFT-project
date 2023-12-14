@@ -1,0 +1,23 @@
+@media (max-width: 1085px) {
+    .profile div, .about-person, .choise{
+        max-width: 90%;
+        margin-left: 5%;
+    }
+    
+}
+@media (max-width: 852px){
+    .none{
+        display: none;
+    }
+    .copy-follow{
+        display: flex;
+        flex-direction: column;
+    }
+    .copy-follow a{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .person-footer-row{
+        margin-top: 0px !important;
+    }
+}
